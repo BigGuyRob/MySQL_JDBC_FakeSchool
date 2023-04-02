@@ -1,0 +1,1 @@
+SELECT * FROM students WHERE LOWER(first_name) LIKE LOWER('%Bob%') OR LOWER(last_name) LIKE LOWER('%"Bob"%');
